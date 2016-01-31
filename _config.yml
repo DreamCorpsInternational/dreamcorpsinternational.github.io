@@ -1,0 +1,33 @@
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+pygments: true
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author: 
+  name: Dream Corps IT
+  email: it@dreamcorps.org
+  link: http://www.dreamcorps.org
+  weibo: 
+  github: http://github.com/DreamCorpsInternational
+
+# 站点信息
+title: Dream Corps IT 
+description: Dream Corps IT
+url: http://www.dreamcorps.org
+rss_url: /pages/atom.xml
+
+# avatar头像及Favicon
+avatar: https://pbs.twimg.com/profile_images/1220678666/180.jpg
+favicon: https://pbs.twimg.com/profile_images/1220678666/180.jpg
+
+# google analytics 设置
+# ga:
+#   id: UA-54767140-1
+#   url: yansu.org
+
+# disqus 设置
+# disqus:
+  # shortname: suyan-zh
