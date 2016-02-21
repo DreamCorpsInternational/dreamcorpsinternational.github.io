@@ -2,11 +2,8 @@
 <html lang="en">
 
 <head>
-    <script> 
-    $(function(){
-      $("#includedContent").load("header.html"); 
-    });
-    </script> 
+    
+    <div id="header"></div>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,12 +28,7 @@
 </head>
 
 <body>
-    <script> 
-    $(function(){
-      $("#includedContent").load("nav.html"); 
-    });
-    </script> 
-
+    <div id="nav"></div>
     <!-- Page Content -->
     <div class="container">
 
@@ -107,17 +99,20 @@
             </div>
         </div>
 
-        <script> 
-        $(function(){
-          $("#includedContent").load("footer.html"); 
-        });
-        </script> 
+        <div id="footer"></div>
 
     </div>
     <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#nav").load("nav.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
